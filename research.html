@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>R.E.M. | Исследования</title>
+    <link rel="stylesheet" href="stylesheet/style.css" />
+    <link rel="icon" href="images/logo.svg" />
+  </head>
+  <body>
+    <div class="wrapper">
+      <header class="header">
+        <nav class="nav">
+          <a href="index.html" class="logo">
+            <img src="images/logo.svg" alt="logo" />
+          </a>
+          <ul class="nav-list">
+            <li class="nav-item">
+              <a href="index.html" class="nav-link">О Нас</a>
+            </li>
+
+            <li class="nav-item">
+              <a href="news.html" class="nav-link">Новости</a>
+            </li>
+
+            <li class="nav-item">
+              <a href="research.html" class="nav-link">Исследования</a>
+            </li>
+
+            <li class="nav-item">
+              <a href="shop.html" class="nav-link">Магазин</a>
+            </li>
+          </ul>
+          <button class="toggle-menu">
+            <span class="line"></span>
+            <span class="line"></span>
+            <span class="line"></span>
+          </button>
+        </nav>
+      </header>
+
+      <section class="research">
+        <div class="research-item fade-in">
+          <h2 class="fade-in">Инсайты</h2>
+          <div class="research-content">
+            <img src="images/research-1.png" alt="research-1" />
+            <div class="research-item-content fade-in">
+              <h3>Как победить бессоницу</h3>
+              <a href="research-1.html">Читать</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="research-item fade-in">
+          <h2 class="fade-in">Истории</h2>
+          <div class="research-content">
+            <img src="images/research-2.png" alt="research-2" />
+            <div class="research-item-content fade-in">
+              <h3>Нарколепсия</h3>
+              <a href="research-2.html">Читать</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="research-item fade-in">
+          <h2 class="fade-in">Советы</h2>
+          <div class="research-content">
+            <img src="images/research-3.png" alt="research-3" />
+            <div class="research-item-content fade-in">
+              <h3>Скандинавский ритуал сна</h3>
+              <a href="research-3.html">Читать</a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <footer class="footer">
+        <div class="footer-container">
+          <div class="footer-header">
+            <div></div>
+            <div></div>
+            <div></div>
+          </div>
+          <div class="footer-content">
+            <div class="footer-contacts">
+              <h3 class="marquee-text">Оставайся с нами!</h3>
+              <form class="footer-form">
+                <div class="form-group">
+                  <label for="email">почта</label>
+                  <input type="email" id="email" required placeholder="bruno203@gmail.com" />
+                </div>
+                <button type="submit" class="btn">Отправить</button>
+              </form>
+            </div>
+            <div class="footer-menu">
+              <div class="footer-column">
+                <h4>Социальные сети</h4>
+                <ul class="social-links">
+                  <li><a href="https://t.me/rem_lab" target="_blank">Telegram</a></li>
+                  <li><a href="https://vk.com/rem_lab" target="_blank">Vkontakte</a></li>
+                  <li><a href="https://www.pinterest.com/rem_lab/" target="_blank">Pinterest</a></li>
+                </ul>
+              </div>
+              <div class="footer-column">
+                <h4>Быстрые ссылки</h4>
+                <ul class="footer-nav">
+                  <li><a href="index.html">о нас</a></li>
+                  <li><a href="news.html">новости</a></li>
+                  <li><a href="research.html">исследования</a></li>
+                  <li><a href="shop.html">магазин</a></li>
+                </ul>
+              </div>
+              <div class="footer-column">
+                <h4>Контакты</h4>
+                <ul class="contact-info">
+                  <li>Russia, Moscow</li>
+                  <li><a href="mailto:r.e.m.shop@gmail.com">r.e.m.shop@gmail.com</a></li>
+                  <li><a href="tel:+79105734567">+7 910 573 45 67</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </footer>
+    </div>
+
+    <div class="modal" id="modal-letter">
+      <div class="modal-content">
+        <div class="modal-top">
+          <div></div>
+          <div></div>
+          <div></div>
+        </div>
+        <div class="modal-main">
+          <h3>Спасибо за подписку!</h3>
+        </div>
+      </div>
+    </div>
+
+    <script src="javascript/anime.js"></script>
+    <script src="javascript/script.js"></script>
+  </body>
+</html>
